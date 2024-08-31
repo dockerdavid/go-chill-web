@@ -1,0 +1,28 @@
+.dashboardLayoutContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f9f6ee;
+  padding: 20px;
+  gap: 20px;
+}
+
+.dashboardLayoutContent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px / 5px;
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  gap: 15px;
+}
+
+.dashboardLayoutStats {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboardLayoutStatsChild {
+  flex: 1;
+  background-color: white;
+}

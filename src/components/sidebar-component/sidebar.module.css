@@ -1,0 +1,61 @@
+.sidebarComponentContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  /* width: 200px; */
+  border-radius: 20px / 10px;
+  gap: 15px;
+}
+
+.sidebarComponentHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebarComponentHeadImg {
+  width: 50px;
+  height: 50px;
+}
+
+.sidebarComponentHeadImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.sidebarComponentHeadUserDetails {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebarComponentNav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebarComponentNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.sidebarComponentNavListItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebarComponentNavListItemLink {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
